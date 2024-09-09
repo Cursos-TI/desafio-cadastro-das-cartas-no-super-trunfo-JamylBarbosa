@@ -30,19 +30,19 @@ int main() {
     printf("Digite o nome da Cidade: \n");
     scanf("%s", &nomecidade);
 
-    printf("Digite o PIB da cidade: \n ");
+    printf("Digite o PIB da cidade: \n");
     scanf("%f", &pib);
 
-    printf("Digite a população da cidade: \n ");
+    printf("Digite a população da cidade: \n");
     scanf("%d", &populacao);
 
-    printf("Digite a área da cidade em km2: \n ");
+    printf("Digite a área da cidade em km2: \n");
     scanf("%f", &areakm);
 
-    printf("Digite o codigo da carta: \n ");
+    printf("Digite o codigo da carta: \n");
     scanf("%s", &cardCode);
 
-    printf("Digite os pontos da carta: \n ");
+    printf("Digite os pontos da carta: \n");
     scanf("%d", &pontos);
 
 
@@ -52,6 +52,7 @@ int main() {
     printf("População da Cidade: %d \n", populacao);  
     printf("Área em km2: %f \n", areakm); 
     printf("Codigo da Carta: %s \n", cardCode);
-    printf("Pontos da carta: %d", pontos);
+    printf("Pontos da carta: %d \n", pontos);
+
     return 0;
 }
