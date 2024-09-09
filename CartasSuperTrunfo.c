@@ -24,7 +24,26 @@ int main() {
     float pib;
     int pontos;
 
+    printf("Digite o nome do Estado: \n");
+    scanf("%s", &estado);
 
+    printf("Digite o codigo da carta: \n");
+    scanf("%s", &cardCode);
+
+    printf("Digite o nome da Cidade: \n");
+    scanf("%s", &nomecidade);
+
+    printf("Digite a população da cidade: \n");
+    scanf("%f", &populacao);
+
+    printf("Digite a área da cidade em km2: \n");
+    scanf("%f", &areakm);
+
+    printf("Digite o PIB da cidade: \n");
+    scanf("%f", &pib);
+
+    printf("Digite os pontos da carta: \n");
+    scanf("%d", &pontos);
 
 
     return 0;
