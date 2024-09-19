@@ -21,7 +21,7 @@ int main() {
     char cardCode[150];
     char nomecidade[150];
     int populacao;
-    float areakm;
+    double areakm;
     float pib;
     int pontos;
 
@@ -38,7 +38,7 @@ int main() {
     scanf("%d", &populacao);
 
     printf("Digite a área da cidade em km2: \n");
-    scanf("%f", &areakm);
+    scanf("%lf", &areakm);
 
     printf("Digite o codigo da carta: \n");
     scanf("%s", &cardCode);
@@ -47,11 +47,13 @@ int main() {
     scanf("%d", &pontos);
 
 
+
+
     printf("Nome do Estado: %s \n", estado);
     printf("Nome da cidade: %s \n", nomecidade);
     printf("PIB da cidade: %.2f \n", pib); 
     printf("População da Cidade: %d \n", populacao);  
-    printf("Área em km2: %f \n", areakm); 
+    printf("Área em km2: %.2lf \n", areakm); 
     printf("Codigo da Carta: %s \n", cardCode);
     printf("Pontos da carta: %d \n", pontos);
 
